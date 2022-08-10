@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Little Roofs</title>
+  </head>
+  <body>
+    <header class="contain">
+      <img
+        src="./logotascafodinhas.png"
+        alt=""
+        srcset=""
+        id="m18"
+        class="m18 hidden"
+      />
+      <h1 class="all-family">Os <span>Telhados</span></h1>
+      <div class="sub-title">
+        <h2>CAFÉ</h2>
+        <span></span>
+        <h2>VINHOS</h2>
+        <span></span>
+        <h2>PETISCOS</h2>
+      </div>
+
+      <p>Aberto todos os dias. 9h-22h</p>
+    </header>
+
+    <div onclick="toggleTheVisibleItems()" id="btn-m18" class="contain">
+      <div>
+        <p>18+</p>
+        <p><small>click</small></p>
+      </div>
+    </div>
+
+    <nav>
+      <a href="#drinks">
+        <i class="icon-timer"></i>
+        Bebidas / Drinks
+      </a>
+
+      <strong>:</strong>
+
+      <a href="#meals"> Refeições / Meals </a>
+
+      <strong>:</strong>
+
+      <a href="#sandwichs"> Sandwich's</a>
+    </nav>
+
+    <main class="contain">
+      <section id="drinks" class="all-family">
+        <h2>Bebidas - Drinks</h2>
+        <ul>
+          <li>
+            <div class="product">
+              <h3>Refrigerantes</h3>
+              <strong class="price"> 1.50 € </strong>
+            </div>
+            <p class="details">
+              Soft Drinks
+              <small>
+                Compal, Refrigerante de Laranja ou Ananás, Coca-Cola, Ice Tea,
+                7Up, Pleno...
+              </small>
+            </p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Água (s/gás) <small>0.33l</small></h3>
+              <strong class="price"> 0.80 €</strong>
+            </div>
+            <p class="details">Plain Water</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Água (s/gás) <small>0.50l</small></h3>
+              <strong class="price"> 1.00 €</strong>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Água (s/gás) <small>1.50l</small></h3>
+              <strong class="price"> 1.50 €</strong>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Pedras Salgadas <small>1.50l</small></h3>
+              <strong class="price"> 1.50 €</strong>
+            </div>
+            <p class="details">Water with gas</p>
+          </li>
+        </ul>
+        <hr />
+        <ul>
+          <li>
+            <div class="product">
+              <h3>Super Bock</h3>
+              <strong class="price"> 1.20 €</strong>
+            </div>
+            <p class="details">Beer</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Super Bock Stout</h3>
+              <strong class="price"> 1.20 €</strong>
+            </div>
+            <p class="details">Black Beer</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Cerveja (s/álcool)</h3>
+              <strong class="price"> 1.50 €</strong>
+            </div>
+            <p class="details">Beer (n/alcohol)</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Imperial</h3>
+              <strong class="price"> 1.00 €</strong>
+            </div>
+            <p class="details">Tap Beer</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Caneca Cerveja</h3>
+              <strong class="price"> 1.20 €</strong>
+            </div>
+            <p class="details">Mug Beer</p>
+          </li>
+        </ul>
+        <hr />
+        <ul>
+          <li>
+            <div class="product">
+              <h3>Vinho Verde da Casa</h3>
+              <strong class="price"> 6.00 €</strong>
+            </div>
+            <p class="details">House White Wine</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Ponte de Lima Adamado</h3>
+              <strong class="price"> 7.00 €</strong>
+            </div>
+            <p class="details">White Wine</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Ponte de Lima Seco</h3>
+              <strong class="price"> 7.00 €</strong>
+            </div>
+            <p class="details">White Wine</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Vinho Tinto da Casa</h3>
+              <strong class="price"> 6.00 €</strong>
+            </div>
+            <p class="details">House Red Wine</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Monte Velho</h3>
+              <strong class="price"> 8.00 €</strong>
+            </div>
+            <p class="details">Red Wine</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Monsaraz</h3>
+              <strong class="price"> 7.00 €</strong>
+            </div>
+            <p class="details">Red Wine</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="meals" class="all-family">
+        <h2>Refeições - Meals</h2>
+        <ul>
+          <li>
+            <div class="product">
+              <h3>Bitoque com Ovo</h3>
+              <strong class="price"> 8.00 € </strong>
+            </div>
+            <p class="details">Steak with egg</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Bifana no Prato</h3>
+              <strong class="price"> 8.00 € </strong>
+            </div>
+            <p class="details">Fried slice of pork</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Bifana com salada</h3>
+              <strong class="price"> 5.00 € </strong>
+            </div>
+            <p class="details">Fried slice of pork with salad</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Panado com arroz</h3>
+              <strong class="price"> 5.50 € </strong>
+            </div>
+            <p class="details">Breaded pork with rice</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Patanisca com batata</h3>
+              <strong class="price"> 6.00 € </strong>
+            </div>
+            <p class="details">Fried coated codfish with potatoes</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Fígado com batata</h3>
+              <strong class="price"> 6.00 € </strong>
+            </div>
+            <p class="details">Calf liver with potatoes</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Polvo com batata</h3>
+              <strong class="price"> 8.00 € </strong>
+            </div>
+            <p class="details">Octopus with potatoes</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Orelha com batata</h3>
+              <strong class="price"> 7.00 € </strong>
+            </div>
+            <p class="details">Pig's ear with potatoes</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Bacalhau com batata</h3>
+              <strong class="price"> 8.00 € </strong>
+            </div>
+            <p class="details">Codfish with potatoes</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Lasanha de carne</h3>
+              <strong class="price"> 6.50 € </strong>
+            </div>
+            <p class="details">Meat lasagna</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="sandwichs" class="all-family">
+        <h2>sandwich's</h2>
+        <ul>
+          <li>
+            <div class="product">
+              <h3>Prego no pão</h3>
+              <strong class="price"> 3.50 € </strong>
+            </div>
+            <p class="details">Steak sandwich</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Fígado no pão</h3>
+              <strong class="price"> 2.50 € </strong>
+            </div>
+            <p class="details">Liver sandwich</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Panado no pão</h3>
+              <strong class="price"> 3.00 € </strong>
+            </div>
+            <p class="details">Breaded pork sandwich</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Presunto no pão</h3>
+              <strong class="price"> 3.00 € </strong>
+            </div>
+            <p class="details">Ham sandwich</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Moelas no pão</h3>
+              <strong class="price"> 2.50 € </strong>
+            </div>
+            <p class="details">Gizzards sandwich</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Orelha no pão</h3>
+              <strong class="price"> 3.00 € </strong>
+            </div>
+            <p class="details">Pig's ear sandwich</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Chamuças no pão</h3>
+              <strong class="price"> 1.20 € </strong>
+            </div>
+            <p class="details">Samosas sandwich</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Bifana no pão</h3>
+              <strong class="price"> 2.50 € </strong>
+            </div>
+            <p class="details">Fried slice of pork sandwich</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="m18 hidden">
+        <h2>O cardápio da Márcia</h2>
+        <ul>
+          <li>
+            <div class="product">
+              <h3>Fodinhas Quentes</h3>
+            </div>
+            <p class="details">Pataniscas de bacalhau</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Escarrapachadas Quentes</h3>
+            </div>
+            <p class="details">Codornizes</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Biquinhos de Amor</h3>
+            </div>
+            <p class="details">Caprichos do mar</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Tique-taques no Redondo</h3>
+            </div>
+            <p class="details">Coração de frango no prato</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Vanico de Ronda</h3>
+            </div>
+            <p class="details">Orelha de porco</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Perigoso na Racha</h3>
+            </div>
+            <p class="details">Fígado de cebolada no meio do pão</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Corno na Rachinha</h3>
+            </div>
+            <p class="details">Prego no pão</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Com Sola na Racha</h3>
+            </div>
+            <p class="details">Panado no pão</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Mamadeiras Quentes</h3>
+            </div>
+            <p class="details">Coxas de frango</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Mentirosos Quentes</h3>
+            </div>
+            <p class="details">Bolinhos de bacalhau</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Corninhos de Marcha Lenta</h3>
+            </div>
+            <p class="details">Caracóis</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Chupões de Molho Verde</h3>
+            </div>
+            <p class="details">Polvo em molho verde</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Cú de galinha recheado</h3>
+            </div>
+            <p class="details">Atum cebola e salsa</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Saquinho Cheio</h3>
+            </div>
+            <p class="details">Rissol</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Charuto da Avó</h3>
+            </div>
+            <p class="details">Pão misto com salsicha</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Charuto da Avó</h3>
+            </div>
+            <p class="details">Pão misto com salsicha</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Cociguinhas feitas à mão</h3>
+            </div>
+            <p class="details">Punheta de bacalhau</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>Meia queca</h3>
+            </div>
+            <p class="details">meia tigela de vinho</p>
+          </li>
+          <li>
+            <div class="product">
+              <h3>queca cheia</h3>
+            </div>
+            <p class="details">tigela cheio de vinho</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="m18 hidden">
+        <p class="details">
+          As fodinhas podem ser embrulhadas (no guardanapo) na racha (pão) ou no
+          redondo (prato).
+        </p>
+        <p class="details">
+          Todo o menu pode ser acompanhado por uma Putinha (malguinha) de "bom
+          vinho de lavrador".
+        </p>
+      </section>
+    </main>
+
+    <footer class="contain">
+      <p>Made with 💜 by Eduardo Queirós</p>
+      <hr />
+      <p>
+        <small>Inspired by the menu of the restaurant "Os Telhadinhos".</small>
+      </p>
+      <p>
+        <small
+          >Visit in
+          <a href="http://tascadasfodinhas.com/">tascadasfodinhas.com</a></small
+        >
+      </p>
+    </footer>
+
+    <button onclick="topFunction()" id="back-to-top" title="Go to top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="48"
+        height="48"
+        fill="currentColor"
+        class="bi bi-arrow-up-circle-fill"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
+        />
+      </svg>
+    </button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

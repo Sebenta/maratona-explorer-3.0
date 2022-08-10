@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color-primary: #ffedd5;
+  /**--bg-color-primary: #9e1912;**/
+  --bg-color-secondary: #fed7aa;
+  --text-color-base: rgba(0, 0, 0, 0.6);
+  --text-color-title: #2d2c2a;
+  --color-secondary: #995000;
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+h1,
+h2,
+h3,
+a,
+.price {
+  font-family: 'Roboto Serif', serif;
+  font-weight: 700;
+  color: var(--text-color-title);
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 2.8rem;
+  line-height: 3.3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.sub-title span {
+  content: '';
+  height: 0.6rem;
+  width: 0.6rem;
+  background-color: var(--text-color-base);
+  border-radius: 50%;
+}
+
+h3,
+strong {
+  font-size: 1.6em;
+  line-height: 1.9rem;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: var(--bg-color-primary);
+  color: var(--text-color-primary);
+}
+
+hr {
+  margin-top: 0.8rem;
+  border-color: var(--color-secondary);
+}
+
+.contain {
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+main {
+  min-height: 70vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  padding-bottom: 3.5rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+header h1 span {
+  color: var(--color-secondary);
+}
+
+header .sub-title {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+
+header p,
+footer p {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+nav {
+  display: none;
+}
+
+nav a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-size: 1.6em;
+  line-height: 1.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+section h2 {
+  width: 100%;
+  background-color: var(--bg-color-secondary);
+}
+
+section ul {
+  margin-top: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 0 0.5rem;
+}
+
+section ul li .product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.details {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: var(--text-color-base);
+  max-width: 100%;
+  text-transform: capitalize;
+}
+
+footer {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+footer a {
+  text-transform: lowercase;
+}
+
+.hidden {
+  display: none;
+}
+
+#btn-m18 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  cursor: pointer;
+}
+
+#btn-m18 div {
+  position: absolute;
+  top: -12rem;
+  right: -1rem;
+  z-index: 99;
+  width: 56px;
+  height: 56px;
+  shape-outside: circle();
+  clip-path: circle();
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ff413633;
+}
+#btn-m18 p {
+  font-family: 'Roboto Serif', serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #ff4136;
+}
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+
+  border-style: none;
+  background-color: transparent;
+  filter: opacity(0.5);
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+
+  #back-to-top {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  nav {
+    display: none;
+  }
+}
