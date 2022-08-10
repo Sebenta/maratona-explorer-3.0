@@ -6,6 +6,7 @@
   <a href="#descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#menu-original">Menu Original</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#resultado">Resultado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#preview-demo">Preview Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -29,6 +30,12 @@ Como inspiração para o projeto usei o menu do restaurante [Os Telhadinhos](htt
   <img alt="noticia" src=".github/all.png" width="35%">
   <img alt="noticia" src=".github/m18.png" width="35%">
 </p>
+
+### Preview Demo
+
+<img alt="noticia" src=".github/qr-code.png" width="20%">
+
+https://tasca-das-fodinhas.netlify.app/
 
 ## Licença
 
