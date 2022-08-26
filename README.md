@@ -1,4 +1,10 @@
+
 # Menu de Restaurante
+
+<p align="center">
+   <img src=".github/cap.gif" width="90%">
+</p>
+
 
 ## Maratona Explorer 3.0
 
@@ -23,13 +29,6 @@ Como inspiração para o projeto usei o menu do restaurante [Os Telhadinhos](htt
 ### Menu Original
 
 <img alt="noticia" src=".github/menu_original.png" width="35%">
-
-### Resultado
-
-<p>
-  <img alt="noticia" src=".github/all.png" width="35%">
-  <img alt="noticia" src=".github/m18.png" width="35%">
-</p>
 
 ### Preview Demo
 
