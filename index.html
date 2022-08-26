@@ -8,50 +8,52 @@
     <title>The Little Roofs</title>
   </head>
   <body>
-    <header class="contain">
-      <img
-        src="./logotascafodinhas.png"
-        alt=""
-        srcset=""
-        id="m18"
-        class="m18 hidden"
-      />
-      <h1 class="all-family">Os <span>Telhados</span></h1>
-      <div class="sub-title">
-        <h2>CAFÉ</h2>
-        <span></span>
-        <h2>VINHOS</h2>
-        <span></span>
-        <h2>PETISCOS</h2>
+    <div class="contain">
+      <header>
+        <img
+          src="./logotascafodinhas.png"
+          alt=""
+          srcset=""
+          id="m18"
+          class="m18 hidden rotate-center"
+        />
+        <h1 class="all-family tracking-in-expand">Os <span>Telhados</span></h1>
+        <div class="sub-title tracking-in-expand">
+          <h2>CAFÉ</h2>
+          <span></span>
+          <h2>VINHOS</h2>
+          <span></span>
+          <h2>PETISCOS</h2>
+        </div>
+
+        <p class="tracking-in-expand">Aberto todos os dias. 9h-22h</p>
+      </header>
+
+      <div onclick="toggleTheVisibleItems()" id="btn-m18">
+        <div class="heartbeat">
+          <p>18+</p>
+          <p><small>click</small></p>
+        </div>
       </div>
 
-      <p>Aberto todos os dias. 9h-22h</p>
-    </header>
+      <nav class="all-family text-focus-in">
+        <a href="#drinks">
+          <i class="icon-timer"></i>
+          Bebidas / Drinks
+        </a>
 
-    <div onclick="toggleTheVisibleItems()" id="btn-m18" class="contain">
-      <div>
-        <p>18+</p>
-        <p><small>click</small></p>
-      </div>
+        <strong>:</strong>
+
+        <a href="#meals"> Refeições / Meals </a>
+
+        <strong>:</strong>
+
+        <a href="#sandwichs"> Sandwich's</a>
+      </nav>
     </div>
 
-    <nav class="all-family">
-      <a href="#drinks">
-        <i class="icon-timer"></i>
-        Bebidas / Drinks
-      </a>
-
-      <strong>:</strong>
-
-      <a href="#meals"> Refeições / Meals </a>
-
-      <strong>:</strong>
-
-      <a href="#sandwichs"> Sandwich's</a>
-    </nav>
-
     <main class="contain">
-      <section id="drinks" class="all-family">
+      <section id="drinks" class="all-family scale-up-ver-center">
         <h2>Bebidas - Drinks</h2>
         <ul>
           <li>
@@ -179,7 +181,7 @@
         </ul>
       </section>
 
-      <section id="meals" class="all-family">
+      <section id="meals" class="all-family scale-up-ver-center">
         <h2>Refeições - Meals</h2>
         <ul>
           <li>
@@ -255,7 +257,7 @@
         </ul>
       </section>
 
-      <section id="sandwichs" class="all-family">
+      <section id="sandwichs" class="all-family scale-up-ver-center">
         <h2>sandwich's</h2>
         <ul>
           <li>
@@ -317,7 +319,7 @@
         </ul>
       </section>
 
-      <section class="m18 hidden">
+      <section class="m18 hidden scale-up-ver-center">
         <h2>O cardápio da Márcia</h2>
         <ul>
           <li>
@@ -437,7 +439,7 @@
         </ul>
       </section>
 
-      <section class="m18 hidden">
+      <section class="m18 hidden scale-up-ver-center">
         <p class="details">
           As fodinhas podem ser embrulhadas (no guardanapo) na racha (pão) ou no
           redondo (prato).
@@ -449,7 +451,7 @@
       </section>
     </main>
 
-    <footer class="contain">
+    <footer class="contain scale-up-ver-center">
       <p>Made with 💜 by Eduardo Queirós</p>
       <hr />
       <p>
@@ -478,6 +480,7 @@
       </svg>
     </button>
 
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./script.js"></script>
   </body>
 </html>
