@@ -2,7 +2,7 @@
 # Menu de Restaurante
 
 <p align="center">
-   <img src=".github/cap.gif" width="90%">
+   <img src=".github/captura.gif" width="90%">
 </p>
 
 
